@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <link rel="stylesheet" href="Survey.css">
+  <title>freeCodeCamp Survey Form</title>
+  <div class="survey-title"><h1 id="title">Favorite Sport Survey Form</h1></div>
+  <div class="description">
+  <p id="description">Tim's Survey Form Quiz</p></div>
+  <div class="form-container">
+  <form id="survey-form">
+    <fieldset>
+    <label id="name-label">Name </label><input id="name" type="text" required placeholder="Jack Eichel"></input>
+    <label id="email-label">Email </label>
+    <input id="email" type="email" required placeholder="jeichel9@vgkhockey.com"></input>
+    <label id="number-label">Age </label>
+    <input id="number" type="number" min="13" max="105" required placeholder="28"></input>
+    </fieldset>
+    <fieldset>
+    <select id="dropdown">
+      <option>(Favorite Sport)</option>
+      <option>Baseball</option>
+      <option>Basketball</option>
+      <option>Football</option>
+      <option>Hockey</option>
+    </select>
+    Have you been a lifelong sports fan?
+    <input class="inline" type="radio" id="question" name="question" value="true" checked>Yes</input>
+    <input class="inline" type="radio" id="question" name ="question" value="true">No</input>
+    </fieldset>
+    <fieldset>
+    If you had to pick one team to cheer for, which would it be? <br>
+    <input class="inline" name="choice" type="checkbox" value="true">Packers</input>
+    <input class="inline" name="choice" type="checkbox" value="true">Golden Knights</input>
+    <input class="inline" name="choice" type="checkbox" value="true">Angels</input>
+    <input class="inline" name="choice" type="checkbox" value="true">Lakers</input>
+    <input class="inline" name="choice" type="checkbox" value="true">None</input>
+    <textarea placeholder="Submit your favorite sports memory..."></textarea></fieldset>
+    <button type="submit" id="submit">Submit</button>
+  </form></div>
