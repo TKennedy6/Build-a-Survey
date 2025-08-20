@@ -1,0 +1,1 @@
+This was a project made while learning CSS on freeCodeCamp
